@@ -1,0 +1,21 @@
+#todo{
+    display: grid;
+    width: 85%;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+#todoitem{
+    border: 1px solid rgb(170, 167, 167);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#like{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#like>button{
+    font-weight: bolder;
+}
